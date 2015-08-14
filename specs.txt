@@ -1,0 +1,22 @@
+Spec 1.
+Program takes two pieces of user input in a form. First piece of information is a sentence or phrase chosen by the user.  The second part of the form takes a specific word that the user would like to search for in the previously given phrase.
+Input1: A phrase or sentence of varying length, case insensitive.
+    (Ex: "How many times am I going to loop through this loop before I'm done with this loop?")
+Input2: A word the user would like to search for inside the given phrase, also case insensitive.
+    (Ex: "loop")
+Behavior: Should take both Input1, and Input2 and covert them both to lower case for easier searching.
+Output: Returns both user inputs in lower case type.
+    (Ex: "LOOP"= input, output= "loop")
+Spec 2.
+Program will then search the given phrase or sentence to see if the word given by the user to search is even in the given sentence. Returns true if found, false if not.
+Input1: "how many times am i going to loop through this loop before i'm done with this loop?" (lower_case_).
+Input2: "loop".
+Behavior: Should return true if user word for search is found in the given phrase.
+Ouput: True
+
+Spec 3.
+Program will search for the given word inside of the sentence/phrase to search and return how many times the given word appears.
+Input1: "how many times am i going to loop through this loop before i'm done with this loop?" (lower_case_).
+Input2: "loop".
+Behavior: Searches given phrase for the amount of times "loop" is found.
+Output: 3
